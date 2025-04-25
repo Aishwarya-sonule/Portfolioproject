@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pannel-one {
+    height: 110px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.pannel-two {
+    width: 60%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.follow i {
+    margin-right: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .pannel-one {
+        font-size: 14px;
+        width: 100%;
+        background-color: white;
+    }
+    .pannel-two {
+        width: 100%;
+        flex-direction: column;
+        gap: 2rem;
+        border-top: 1px solid grey;
+    }
+    .pannel {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+    .call {
+        position: relative;
+        right: 100px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .email {
+        position: relative;
+        text-align: center;
+    }
+    .follow {
+        position: relative;
+        
+        text-align: center;
+    }
+    h3 {
+        font-weight: bold;
+    }
+
+}
